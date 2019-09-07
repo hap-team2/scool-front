@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-class Sidebar extends Component {
+export default class Sidebar extends Component {
   render() {
     return (
       <>
@@ -21,18 +21,18 @@ class Sidebar extends Component {
               </li>
 
               <li className="sidebar__list-item">
-                <span>Pontuação:</span> 290 <span class="lnr lnr-star"></span>
+                <span>Pontuação:</span> 290 <span className="lnr lnr-star"></span>
               </li>
             </ul>
 
             <nav className="sidebar__nav">
-              <a href="" className="sidebar__nav-link"><span class="lnr lnr-home"></span> Home</a>
-              <a href="" className="sidebar__nav-link"><span class="lnr lnr-user"></span> Perfil</a>
-              <a href="" className="sidebar__nav-link"><span class="lnr lnr-question-circle"></span> Aprendizado</a>
-              <a href="" className="sidebar__nav-link"><span class="lnr lnr-bubble"></span> Ouvidoria</a>
+              <a href="" className="sidebar__nav-link"><span className="lnr lnr-home"></span> Home</a>
+              <a href="" className="sidebar__nav-link"><span className="lnr lnr-user"></span> Perfil</a>
+              <a href="" className="sidebar__nav-link"><span className="lnr lnr-question-circle"></span> Aprendizado</a>
+              <a href="" className="sidebar__nav-link"><span className="lnr lnr-bubble"></span> Ouvidoria</a>
             </nav>
 
-            <a href="Sair" className="sidebar__logout"><span class="lnr lnr-enter"></span> Sair</a>
+            <a href="Sair" className="sidebar__logout"><span className="lnr lnr-enter"></span> Sair</a>
 
           </div>
         </SidebarStyle>
@@ -40,8 +40,6 @@ class Sidebar extends Component {
     )
   }
 }
-
-export default Sidebar;
 
 const SidebarStyle = styled.aside`
   position: fixed;

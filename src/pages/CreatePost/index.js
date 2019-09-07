@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Sidebar from '../../components/Sidebar';
 import { CreatePostContent } from './styles';
@@ -44,7 +45,7 @@ export default function CreatePost() {
 
             <textarea name="content" className="input" placeholder="Conteúdo"></textarea>
 
-            <button className="button">Publicar</button>
+            <Link to={`/post/10`} className="form__content-btn button">Publicar</Link>
 
           </form>
         </div>

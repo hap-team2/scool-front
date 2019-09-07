@@ -38,6 +38,7 @@ export const LoginPage = styled.div`
 
     &__content-btn {
       cursor: pointer;
+      display: inline-block;
 
       &:hover {
         opacity: .6;

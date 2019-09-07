@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import api from '../../services/api'
 import { Title, LoginPage } from './styles';
@@ -20,7 +21,7 @@ export default function Login() {
             <form action="">
               <input className="form__content-input input" type="text" placeholder="Usuário" />
               <input className="form__content-input input" type="password" placeholder="Senha" />
-              <button className="form__content-btn button">Enviar</button>
+              <Link to={`/home/`} className="form__content-btn button">Entrar</Link>
             </form>
           </div>
         </div>
