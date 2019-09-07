@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import Sidebar from '../../components/Sidebar';
 import { HomeContent } from './styles';
@@ -12,7 +13,8 @@ export default function Home() {
       <HomeContent className="home__content">
 
         <div className="text-right">
-          <a href="" className="button">Criar Tópico</a>
+          {/* <a href="/create-post" className="button">Criar Tópico</a> */}
+          <Link to={`/create-post/`} className="button">Criar Tópico</Link>
         </div>
 
         <div className="home__subjects">
