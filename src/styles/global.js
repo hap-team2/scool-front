@@ -5,6 +5,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     outline: 0;
+    border: none;
     box-sizing: border-box;
   }
 
@@ -35,8 +36,27 @@ export default createGlobalStyle`
 
   .input {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     width: 100%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border: 1px solid #00818A;
+    border-radius: 8px;
+  }
+
+  .main-title {
+    color: #293462;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+
+  .button {
+    background: #293462;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    border-radius: 10px;
   }
 `

@@ -14,11 +14,15 @@ export default function Login() {
         </div>
 
         <div className="form">
-          <Title>Login</Title>
+          <div className="form__content">
+            <h1 className="form__content-title main-title">Login</h1>
 
-          <form action="">
-            <input className="input" type="text" placeholder="Usuário" />
-          </form>
+            <form action="">
+              <input className="form__content-input input" type="text" placeholder="Usuário" />
+              <input className="form__content-input input" type="password" placeholder="Senha" />
+              <button className="form__content-btn button">Enviar</button>
+            </form>
+          </div>
         </div>
       </LoginPage>
     </>
