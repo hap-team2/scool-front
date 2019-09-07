@@ -75,6 +75,10 @@ const SidebarStyle = styled.aside`
         margin: 0 5px 0 0;
         font-weight: bold;
       }
+
+      .lnr {
+        color: #ffd400;
+      }
   }
 
   .sidebar__nav {
