@@ -6,6 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     border: none;
+    text-decoration: none;
     box-sizing: border-box;
   }
 
@@ -17,7 +18,7 @@ export default createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
-    background: #fff;
+    background: #F5F3F3;
     -webkit-font-smoonthing: antialiased !important;
   }
 
@@ -59,4 +60,30 @@ export default createGlobalStyle`
     font-size: 24px;
     border-radius: 10px;
   }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .card {
+      cursor: pointer;
+      width: 100%;
+      margin: 0 20px 0 0;
+      font-family: 'Oswald';
+      text-align: center;
+      text-transform: uppercase;
+      background: #fff;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      transition: 300ms ease all;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        &:hover {
+          color: #fff;
+          background: #293462;
+        }
+    }
 `

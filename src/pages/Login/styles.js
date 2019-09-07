@@ -17,6 +17,10 @@ export const LoginPage = styled.div`
   }
 
   .form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 100vh;
 
     &__content {
       width: 60%;
