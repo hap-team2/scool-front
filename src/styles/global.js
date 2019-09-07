@@ -52,6 +52,7 @@ export default createGlobalStyle`
   }
 
   .button {
+    cursor: pointer;
     background: #293462;
     padding: 10px 60px;
     text-transform: uppercase;

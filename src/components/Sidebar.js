@@ -21,7 +21,7 @@ class Sidebar extends Component {
               </li>
 
               <li className="sidebar__list-item">
-                <span>Pontuação:</span> 290
+                <span>Pontuação:</span> 290 <span class="lnr lnr-star"></span>
               </li>
             </ul>
 
